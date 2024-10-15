@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="2024-anika.png">
+        <title>Аника Кликер</title>
+<header>
+    <div class="container2">
+        <p>Версия 0.1 Данная игра создана в качестве развлечения!!!</p>
+        <p>Проект создан относительно не давно, поэтому в игре может быть много ошибок и багов.</p>
+    </div>
+    <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</header>
+</head>
+<body>
+    <div class="container">
+        <h1>Аника кликер</h1>
+        <p>Монет 😻: <span id="clickCount">0</span></p> 
+        <button id="clickButton">
+            <picture>
+                <img src="2024-anika.png" height="350px" width="350px">
+            </picture>
+        </button>
+    </div>
+    <script src="script.js"></script>
+        <h3>___________________________________________________________________________________________________________________________________________</h3>
+        <a href="https://www.youtube.com/channel/UCPEgJHSEvLHUCEtnISCHieg" target="_blank"><img src="youtube.png" height="92" width="92"></a>
+</body>
+</html>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 23);
+    color:white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 23);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b0067;
+    color: white;
+}
+
+button:hover {
+    background-color: #2500a0;
+    background-color: #1b0073;
+}
+
+.container2 {
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.emoji {
+    position: absolute;
+    font-size: 30px; /* Размер смайлика */
+    transition: transform 1s ease-in-out, opacity 0.6s ease;
+    bottom: 430px; /* Начальная позиция смайлика */
+}
+ 
+.fly {
+    transform: translateY(-100px); /* Поднимаем смайлик вверх */
+    opacity: 0; /* Уменьшаем прозрачность */
+}
+
+    </style>
